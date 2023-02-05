@@ -1,0 +1,15 @@
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\bin\Debug\net6.0\Practice_OOPs.exe
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\bin\Debug\net6.0\Practice_OOPs.deps.json
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\bin\Debug\net6.0\Practice_OOPs.runtimeconfig.json
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\bin\Debug\net6.0\Practice_OOPs.dll
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\bin\Debug\net6.0\Practice_OOPs.pdb
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\Practice_OOPs.csproj.AssemblyReference.cache
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\Practice_OOPs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\Practice_OOPs.AssemblyInfoInputs.cache
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\Practice_OOPs.AssemblyInfo.cs
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\Practice_OOPs.csproj.CoreCompileInputs.cache
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\Practice_OOPs.dll
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\refint\Practice_OOPs.dll
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\Practice_OOPs.pdb
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\Practice_OOPs.genruntimeconfig.cache
+C:\Users\yen.nguyenthihai\.Net_Intern\test1\Practice_OOPs\Practice_OOPs\obj\Debug\net6.0\ref\Practice_OOPs.dll
