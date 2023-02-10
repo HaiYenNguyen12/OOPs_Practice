@@ -108,39 +108,39 @@ public class Program
                         Console.WriteLine(ex.Message);
                         return;
                     }
-
-                    int bye = 0;
-                    do
-                    {
-                        Console.WriteLine("CHOOSE KIND OF STUDENT:");
-                        Console.WriteLine("1.Good");
-                        Console.WriteLine("2.Normal");
-                        bye = int.Parse(Console.ReadLine());
-                    }
-                    while (bye != 1 && bye != 2);
-                    switch (bye)
-                    {
-                        case 1:
-                            int GPA = helloWorld.InputGPA();
+                    
+                        int bye = 0;
+                        do
+                        {
+                            Console.WriteLine("CHOOSE KIND OF STUDENT:");
+                            Console.WriteLine("1.Good");
+                            Console.WriteLine("2.Normal");
+                            bye = int.Parse(Console.ReadLine());
+                        }   
+                        while (bye != 1 && bye != 2);
+                        switch (bye)
+                        {
+                            case 1:
+                                int GPA = helloWorld.InputGPA();
                             GoodStudent good = new GoodStudent(GPA, "MAMA award", id, name, t, "Female", phone, "DUT", "Good");
-                            bool check1 = obj.AddStudent(good);
-                            if (check1) Console.WriteLine("Added sucessfully!");
-                            else Console.WriteLine("Edited sucessfully!");
-                            good.ShowInfo();
-                            break;
-                        case 2:
-                            int EngPoint = helloWorld.InputEng();
-                            int EntryPoint = helloWorld.InputEntry();
+                                bool check1 = obj.AddStudent(good);
+                                if (check1) Console.WriteLine("Added sucessfully!");
+                                else Console.WriteLine("Edited sucessfully!");
+                                good.ShowInfo();
+                                break;
+                            case 2:
+                                int EngPoint = helloWorld.InputEng();
+                                int EntryPoint = helloWorld.InputEntry();
                             NormalStudent normal = new NormalStudent(EngPoint, EntryPoint, id, name, t, "Male", phone, "UEL", "Excellent");
-                            bool check2 = obj.AddStudent(normal);
-                            if (check2) Console.WriteLine("Added sucessfully!");
-                            else Console.WriteLine("Edited sucessfully!");
-                            normal.ShowInfo();
-                            break;
-                        default:
-                            break;
-                    }
-                    break;
+                                bool check2 = obj.AddStudent(normal);
+                                if (check2) Console.WriteLine("Added sucessfully!");
+                                else Console.WriteLine("Edited sucessfully!");
+                                normal.ShowInfo();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
 
                 case 2:
                     Console.WriteLine("Input the number you want to recruit");
@@ -165,6 +165,6 @@ public class Program
                 default:
                     break;
             }
+            }
         }
-    }
 }
