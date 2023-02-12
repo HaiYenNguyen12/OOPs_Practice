@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex14.Entity
 {
-    internal class NormalStudent : Student
+    public class NormalStudent : Student
     {
         public int EnglishScore { get; set; }
         public int EntryScore { get; set; }

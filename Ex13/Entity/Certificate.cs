@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex13.Entity
 {
-    internal class Certificate
+    public class Certificate
     {
         public int Id { get; set; }
         public string  Name { get; set; }

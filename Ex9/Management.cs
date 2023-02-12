@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex9
 {
-    internal class Management
+    public class Management
     {
         private List<Bill> bills;
         private List<Customer> customers;
@@ -61,21 +61,17 @@ namespace Ex9
                 return true;
             }
             return false;
-
         }
 
         public decimal CalculateFee (int id)
         {
-
             if (bills.Where(x => x.Id == id).Any())
             {
                 var item = bills.Where(x => x.Id == id).Select(x => x).First();
                 item.Fee = (item.NewNumber - item.OldNumber) * 5;
                 return item.Fee;
             }
-
             else return -1;
-
         }
 
         public IEnumerable<Bill> CreateListBill(List<Customer> customers)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex14.Entity
 {
-    internal class GoodStudent : Student
+    public class GoodStudent : Student
     {
         public double Gpa { get; set; }
         public string BestRewardName { get; set; }

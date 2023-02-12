@@ -7,7 +7,7 @@ using Ex14.Entity;
 
 namespace Ex14.Management
 {
-    internal class Management
+    public class Management
     {
         private List<Student> students;
         public Management(List<Student> list)

@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Ex12
 {
-    internal class Management
+    public class Management
     {
         public List<Transportation> Transportations { get; set; }
         public Management(List<Transportation> Transportations)

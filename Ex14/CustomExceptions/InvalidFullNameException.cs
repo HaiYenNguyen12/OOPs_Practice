@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex14.CustomExceptions
 {
-    internal class InvalidFullNameException : Exception
+    public class InvalidFullNameException : Exception
     {
         public InvalidFullNameException()
         {

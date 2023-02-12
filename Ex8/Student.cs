@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex8
 {
-    internal class Student
+    public class Student
     {
         public string FullName { get; set; }
         public int Age { get; set; }

@@ -7,7 +7,7 @@ using Ex14.Entity;
 
 namespace Ex14.Management
 {
-    internal class SortByPhoneNumber : IComparer<StudentVM>
+    public class SortByPhoneNumber : IComparer<StudentVM>
     {
         public int Compare(StudentVM x, StudentVM y)
         {

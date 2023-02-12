@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ex13.Entity
 {
-    internal class Fresher : Employee
+    public class Fresher : Employee
     {
 
         // Fresher and Employee has "Is-a" relationship
-
         public DateTime GraduationDate { get; set; }
         public string GraduationRank { get; set; }
         public string Education{ get; set; }
@@ -21,6 +20,7 @@ namespace Ex13.Entity
             GraduationRank= rank;    
             Education = school;
         }
+
         public override void ShowInfo()
         {
             base.ShowInfo();
@@ -34,8 +34,7 @@ namespace Ex13.Entity
             base.Edit(new_employee);
             GraduationDate = temp.GraduationDate;
             GraduationRank = temp.GraduationRank;
-            Education = temp.Education;
-                
+            Education = temp.Education;    
         }
     }
 }

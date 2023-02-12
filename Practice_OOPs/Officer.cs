@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice_OOPs
 {
-    class Officer
+    public class Officer
     {
         public string Name { get; set; }
         public int Age { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ex6
 {
-    internal class School
+    public class School
     {
         private List<Student> students;
 
@@ -27,7 +27,6 @@ namespace Ex6
                 this.students.Add(student);
                 return true;
             }
-
         }
 
         public List<Student> GetStudents20YearOlds() {

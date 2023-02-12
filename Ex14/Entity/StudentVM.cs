@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex14.Entity
 {
-    internal class StudentVM
+    public class StudentVM
     {
         public string FullName { get; set; }
         public string PhoneNumber { get; set; }

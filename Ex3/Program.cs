@@ -11,7 +11,6 @@ public class Program
             new CandidateA("khoia","Nguyen", "Shahara", 1),
             new CandidateB("khoib","Hai", "Shahara", 1),
             new CandidateC("khoic","Yen", "Shahara", 1),
-
         };
         Enrollment obj = new Enrollment(list);
 
@@ -28,7 +27,6 @@ public class Program
                 hello = int.Parse(Console.ReadLine());
             }
             while (hello != 1 && hello != 2 && hello != 3 && hello != 4);
-
             switch (hello)
             {
                 case 1:

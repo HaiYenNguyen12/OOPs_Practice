@@ -27,12 +27,10 @@ public class Program
             new Person("8", "Yoonanie", 10, "cooker")
         };
         Family f3 = new Family(list3);
-
         Quarter qt = new Quarter();
         qt.AddFamily(f1);
         qt.AddFamily(f2);
         qt.AddFamily(f3);
-
         int number = 0;
         while (true)
         {

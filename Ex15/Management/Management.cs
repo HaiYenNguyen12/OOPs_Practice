@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Ex15.Management
 {
-    internal class Management
+    public class Management
     {
         private List<Student> students;
         public Management(List<Student> list)

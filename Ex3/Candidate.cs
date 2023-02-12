@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex3
 {
-    internal class Candidate
+    public class Candidate
     {
         public string Id { get; set; }
         public string Name { get; set; }
@@ -23,7 +23,6 @@ namespace Ex3
         public virtual void Print()
         {
             Console.WriteLine("iD: " + this.Id + " " +" Name: " +this.Name + " Address: " + this.Address + " Level: " + this.Level.ToString());
-            
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex14.CustomExceptions
 {
-    internal class InvalidDOBException :Exception
+    public class InvalidDOBException :Exception
     {
         public InvalidDOBException()
         {

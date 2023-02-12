@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ex5
 {
-    internal class Room
+    public class Room
     {
         public string Category { get; set; }
         public int Price { get; set; }
-
 
         public Room(string category, int price)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex5
 {
-    internal class RoomB : Room
+    public class RoomB : Room
     {
         public RoomB() : base("B", 300)
         {

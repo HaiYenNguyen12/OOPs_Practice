@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class Journal : Document
+    public class Journal : Document
     {
         public int SerialNumber { get; set; }
         public string Month { get; set; }

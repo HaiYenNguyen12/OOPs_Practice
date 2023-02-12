@@ -6,25 +6,25 @@ using System.Threading.Tasks;
 
 namespace Ex5
 {
-    internal class Hotel
+    public class Hotel
     {
         private List<Person> persons;
-        public Hotel(List<Person> list) { 
+        public Hotel(List<Person> list) 
+        { 
             persons = list;
         }
         public void AddPerson(Person person)
         {
-            
-               var exist_person = this.persons.Where(x => x.Id.Equals(person.Id)).FirstOrDefault();
-               if (exist_person == null)
-                {
-                this.persons.Add(person);
-                }
-                else
-                {
-                exist_person.NumberRent = person.NumberRent;
-                exist_person.Room = new Room(person.Room.Category, person.Room.Price);
-                }
+            var exist_person = this.persons.Where(x => x.Id.Equals(person.Id)).FirstOrDefault();
+            if (exist_person == null)
+            {
+            this.persons.Add(person);
+            }
+            else
+            {
+            exist_person.NumberRent = person.NumberRent;
+            exist_person.Room = new Room(person.Room.Category, person.Room.Price);
+            }
         }
 
         public bool RemovePersonById(string Id)
@@ -46,7 +46,6 @@ namespace Ex5
             if (person == null) return 0;
             decimal fee = person.Room.Price * person.NumberRent;
             return fee;
-
         }
 
         public void ShowDetails ()

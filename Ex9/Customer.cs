@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex9
 {
-    internal class Customer
+    public class Customer
     {
         public string FullName { get; set; }
         public int NumberAddress { get; set; }

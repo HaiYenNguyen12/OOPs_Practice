@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Ex13.Input
 {
-    internal class HelloWorld
+    public class HelloWorld
     {
         public HelloWorld()
         {

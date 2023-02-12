@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Practice_OOPs
 {
-    class Worker : Officer
+    public class Worker : Officer
     {
         public int Level { get; set; }
 

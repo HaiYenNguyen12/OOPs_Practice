@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex4
 {
-    internal class Quarter
+    public class Quarter
     {
         public List<Family> Families { get; set; }
 

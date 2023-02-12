@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex7
 {
-    internal class Teacher
+    public class Teacher
     {
         public string FullName { get; set; }
         public int Age { get; set; }
@@ -15,9 +15,7 @@ namespace Ex7
         public decimal Salary { get; set; }
         public decimal Bonus { get; set; }
         public decimal Penalty { get; set; }
-
         public decimal NetSalary { get; set; }
-
 
         public Teacher(string fullname, int age, string id, string classname, decimal salary, decimal bonus, decimal penalty)
         {

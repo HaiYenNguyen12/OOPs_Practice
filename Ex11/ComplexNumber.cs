@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex11
 {
-    internal class ComplexNumber
+    public class ComplexNumber
     {
         public double RealPart { get; set; }
         public double ImaginaryPart { get; set; }
@@ -32,7 +32,6 @@ namespace Ex11
         {
             double new_real = this.RealPart + b.RealPart;
             double new_imaginary = this.ImaginaryPart + b.ImaginaryPart;
-
             return new ComplexNumber(new_real, new_imaginary);
         }
 
@@ -40,7 +39,6 @@ namespace Ex11
         {
             double new_real = this.RealPart * b.RealPart - this.ImaginaryPart * b.ImaginaryPart;
             double new_imaginary = this.RealPart * b.ImaginaryPart + this.ImaginaryPart * b.RealPart;
-
             return new ComplexNumber(new_real, new_imaginary);
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex13.Exps
 {
-    internal class PhoneException : Exception
+    public class PhoneException : Exception
     {
         public PhoneException()
         {

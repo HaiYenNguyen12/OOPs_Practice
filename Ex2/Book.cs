@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class Book : Document
+    public class Book : Document
     {
         public string AuthorName { get; set; }
         public int PageNumber { get; set; }

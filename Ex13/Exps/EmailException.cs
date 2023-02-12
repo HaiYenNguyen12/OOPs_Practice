@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex13.Exps
 {
-    internal class EmailException : Exception
+    public class EmailException : Exception
     {
         public EmailException()
         {
@@ -16,9 +16,6 @@ namespace Ex13.Exps
         public EmailException(string Email) : base($"Invalid email: {Email}") 
         {
 
-        }
-        
-
-        
+        } 
     }
 }

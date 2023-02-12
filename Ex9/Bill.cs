@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex9
 {
-    internal class Bill
+    public class Bill
     {
         public int Id { get; set; }
         public int OldNumber { get; set; }
@@ -22,7 +22,6 @@ namespace Ex9
             Customer = customer;
             Fee = (this.OldNumber - this.NewNumber) * 5;
         }
-
 
         public void Print()
         {

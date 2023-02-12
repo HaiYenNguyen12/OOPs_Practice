@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex3
 {
-    internal class CandidateB : Candidate
+    public class CandidateB : Candidate
     {
         public static readonly String SINH = "Sinh";
         public static readonly String LY = "Ly";

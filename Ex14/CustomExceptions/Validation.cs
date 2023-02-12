@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Ex14.CustomExceptions
 {
-    internal class Validation
+    public class Validation
     {
         public static void ValidateFullName(string FullName)
         {

@@ -6,22 +6,17 @@ using System.Threading.Tasks;
 
 namespace Ex3
 {
-    internal class CandidateA : Candidate
+    public class CandidateA : Candidate
     {
         public static readonly String TOAN = "Toan";
         public static readonly String LY = "Ly";
         public static readonly String HOA = "Hoa";
         public CandidateA(string Id, string Name, string Address, int Level) : base(Id, Name, Address, Level)
         {
-
         }
         public override void Print()
         {
             Console.WriteLine("ID: "+ this.Id + " Name: " + this.Name + " Address: " + this.Address + " Level: " + this.Level.ToString() + " "+ TOAN + " " + LY + " " + HOA);
         }
-
-
-
-
     }
 }

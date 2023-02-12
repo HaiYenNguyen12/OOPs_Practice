@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex15.Entity
 {
-    internal class InServiceStudent :Student
+    public class InServiceStudent :Student
     {
         public string StudyPlace { get; set; }
         public InServiceStudent(string studyPlace)

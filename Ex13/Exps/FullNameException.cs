@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex13.Exps
 {
-    internal class FullNameException : Exception
+    public class FullNameException : Exception
     {
         public FullNameException()
         {

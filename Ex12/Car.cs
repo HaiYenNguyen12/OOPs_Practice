@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex12
 {
-    internal class Car : Transportation
+    public class Car : Transportation
     {
         public int NumberOfSeat { get; set; }
         public string KindOfEngine { get; set; }
