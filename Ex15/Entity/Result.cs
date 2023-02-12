@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex15.Entity
 {
-    internal class Result
+    public class Result
     {
         public string  SemesterName { get; set; }
         public double AvgPoint { get; set; }

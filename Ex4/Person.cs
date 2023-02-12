@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex4
 {
-    internal class Person
+    public class Person
     {
         public string  Id { get; set; }
         public string  FullName { get; set; }

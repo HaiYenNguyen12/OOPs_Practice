@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Ex14.CustomExceptions
 {
-    internal class InvalidPhoneNumberException :Exception
+    public class InvalidPhoneNumberException :Exception
     {
         public InvalidPhoneNumberException()
         {

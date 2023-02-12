@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex5
 {
-    internal class Person
+    public class Person
     {
         public string FullName { get; set; }
         public byte Age { get; set; }

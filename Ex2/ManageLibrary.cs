@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class ManageLibrary
+    public class ManageLibrary
     {
         public List<Document> Documents { get; set; }
         public ManageLibrary(List<Document> Documents)

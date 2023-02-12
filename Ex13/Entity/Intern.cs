@@ -42,7 +42,6 @@ namespace Ex13.Entity
             Majors = temp.Majors;
             Semester = temp.Semester;
             UniversityName = temp.UniversityName;
-
         }
 
     }

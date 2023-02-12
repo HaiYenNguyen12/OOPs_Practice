@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex15.Entity
 {
-    internal class Student
+    public class Student
     {
         public int Id { get; set; }
         public string FullName { get; set; }

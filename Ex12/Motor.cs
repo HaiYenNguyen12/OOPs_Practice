@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex12
 {
-    internal class Motor : Transportation
+    public class Motor : Transportation
     {
         public int Power { get; set; }
         public Motor(int power, int id, string producer, decimal price, string color, int year) : base(id, producer, price, color, year)

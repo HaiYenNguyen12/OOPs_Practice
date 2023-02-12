@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace Ex4
 {
-    internal class Family
+    public class Family
     { 
         public List<Person> Persons { get; set; }
-
         public Family(List<Person> Persons) 
         {
             this.Persons = Persons;
@@ -19,7 +18,6 @@ namespace Ex4
         {
             Persons = new List<Person>();
         }
-
         public void Print()
         {
           Console.WriteLine("The number of members in a family is: " + this.Persons.Count);

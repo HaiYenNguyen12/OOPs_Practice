@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class News : Document
+    public class News : Document
     {
         [Range(1,31)]
         public int PublisherDay { get; set; }

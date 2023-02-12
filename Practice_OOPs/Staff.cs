@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice_OOPs
 {
-    internal class Staff : Officer
+    public class Staff : Officer
     {
         public string Mission { get; set; }
         public Staff(string Misson, string Name, int Age, string Address, string Gender) : base(Name, Age, Address, Gender)

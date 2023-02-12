@@ -7,7 +7,7 @@ using Ex13.Const;
 
 namespace Ex13.Entity
 {
-    internal class Employee
+    public class Employee
     {
 
         
@@ -19,10 +19,8 @@ namespace Ex13.Entity
         public string PhoneNumber { get; set; }
         public string EmployeeType { get; set; }
         public List<Certificate> Certificates { get; set; }
-
         public static int EmployeeCount = 0;
         public string  Email { get; set; }
-
 
         public Employee(int id, string fullName, DateTime birthday, string phoneNumber, string employeeType, List<Certificate> list, string email)
         {
@@ -47,7 +45,6 @@ namespace Ex13.Entity
 
         public virtual void ShowInfo()
         {
-
             Console.WriteLine($"Id: {this.Id.ToString()}, FullName: {this.FullName}, Birthday: {this.Birthday.ToString()}, PhoneNumber: {this.PhoneNumber}, EmployeeType: {this.EmployeeType}, Email: {this.Email}");
             foreach  (Certificate i in Certificates)
             {
@@ -62,8 +59,6 @@ namespace Ex13.Entity
             EmployeeType = Employee.EmployeeType;
             Certificates = Employee.Certificates;
         }
-
-
     }
 
    

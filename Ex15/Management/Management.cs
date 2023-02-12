@@ -1,4 +1,4 @@
-﻿using Ex15.Entity;
+using Ex15.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Ex15.Management
 {
-    internal class Management
+    public class Management
     {
         private List<Student> students;
         public Management(List<Student> list)
@@ -50,7 +50,6 @@ namespace Ex15.Management
 
         public IEnumerable<double> GetAvgPoints(string Semester, Department department)
         {
-            
             foreach (var i in department.Students)
             {
                 foreach (var item in i.Results)

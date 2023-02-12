@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex2
 {
-    internal class Document
+    public class Document
     {
         public int Id { get; set; }
         public String PublisherName { get; set; }

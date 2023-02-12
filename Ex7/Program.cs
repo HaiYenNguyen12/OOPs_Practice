@@ -13,7 +13,6 @@ public class Program
             new Teacher("Jennie",20,"123","19TCLC_DT6", 10,10,5),
             new Teacher("Jisoo",20,"124","19TCLC_DT6", 10,10,5),
             new Teacher("Lisa",20,"125","19TCLC_DT6", 10,10,5),
-
         };
        School obj = new School(teachers);
 

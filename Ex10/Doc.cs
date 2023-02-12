@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ex10
 {
-    internal class Doc
+    public class Doc
     {
         public string St { get; set; }
 

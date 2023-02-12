@@ -11,9 +11,6 @@ public class Program
     public static void Main(string[] args)
     {
         Customer a = new Customer("BigBang", 36, 1218);
-        //Customer b = new Customer("Tran Thi Hong Lan", 39, 1532);
-        //Customer c = new Customer("Nguyen Hien Ai", 22, 3425);
-
         List<Customer> orangeJuice = new List<Customer>()
         {
             new Customer("Nguyen Van Tam", 36, 1212),

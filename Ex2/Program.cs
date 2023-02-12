@@ -88,9 +88,6 @@ public class Program
                 case 3:
                     Console.WriteLine("Choose the type you want to see[book, journal,news]...");
                     string type = Console.ReadLine();
-                    
-
-                    
                     bool result = obj.SearchDocumentByType(type);
                     if (!result) { Console.WriteLine("Sorry! Please try again"); }
                     break;

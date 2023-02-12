@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex3
 {
-    internal class Enrollment
+    public class Enrollment
     {
         public List<Candidate> Candidates { get; set; }
         public Enrollment(List<Candidate> Candidates)

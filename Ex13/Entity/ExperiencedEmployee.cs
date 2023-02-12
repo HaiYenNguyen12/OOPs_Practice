@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ex13.Entity
 {
-    internal class ExperiencedEmployee : Employee
+    public class ExperiencedEmployee : Employee
     {
-
         // Experienced Employee and Employee has "Is-a" relationship
 
         public int ExpInYear { get; set; }

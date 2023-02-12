@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice_OOPs
 {
-    internal class ManageOfficer
+    public class ManageOfficer
     {
         public List<Officer> Officers { get; set; }
         public ManageOfficer(List<Officer> Officers) {

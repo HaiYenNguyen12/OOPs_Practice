@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex8
 {
-    internal class Management
+    public class Management
     {
         private List<Card> cards;
 
@@ -14,15 +14,18 @@ namespace Ex8
         {
             this.cards = cards;
         }
-        public bool AddCard (Card card) { 
-            if (cards.Where(x => x.Id == card.Id).Any()) { 
+        public bool AddCard (Card card) 
+        { 
+            if (cards.Where(x => x.Id == card.Id).Any()) 
+            { 
                 return false;
             }
             cards.Add(card);
             return true;
         }
 
-        public bool RemoveCard (string Id) {
+        public bool RemoveCard (string Id) 
+        {
 
             if (String.IsNullOrEmpty(Id)) return false;
 

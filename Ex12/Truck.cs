@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex12
 {
-    internal class Truck : Transportation
+    public class Truck : Transportation
     {
         public int GravityLoad { get; set; }
 

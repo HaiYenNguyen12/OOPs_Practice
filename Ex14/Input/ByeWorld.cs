@@ -7,7 +7,7 @@ using Ex14.CustomExceptions;
 
 namespace Ex14.Input
 {
-    internal class ByeWorld
+    public class ByeWorld
     {
         public ByeWorld()
         {

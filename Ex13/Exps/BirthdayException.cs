@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex13.Exps
 {
-    internal class BirthdayException : Exception
+    public class BirthdayException : Exception
     {
         public BirthdayException()
         {
@@ -17,6 +17,5 @@ namespace Ex13.Exps
         {
 
         }
-       
     }
 }
