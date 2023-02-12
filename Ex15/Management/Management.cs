@@ -1,4 +1,4 @@
-﻿using Ex15.Entity;
+using Ex15.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,7 +50,6 @@ namespace Ex15.Management
 
         public IEnumerable<double> GetAvgPoints(string Semester, Department department)
         {
-            
             foreach (var i in department.Students)
             {
                 foreach (var item in i.Results)
